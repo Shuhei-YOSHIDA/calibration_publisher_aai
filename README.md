@@ -2,6 +2,10 @@
 This repository is from [autowarefoundation/autoware_ai_utilites](https://github.com/autowarefoundation/autoware_ai_utilities) in order to build and use `calibration_publisher` package only.
 Autoware dependent codes such as `autoware_msgs` are removed in this separated package.
 
+## note
+* Package's name is `calibration_publisher_aai` instead of `calibration_publisher`.
+* `projection_matrix_topic` parameter cannot be used.
+
 # Calibration Publisher
 
 This nodes publishes the camera intrinsics, extrinsics and registers the TF between the camera and LiDAR sensors.
